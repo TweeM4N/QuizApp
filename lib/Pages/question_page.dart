@@ -23,7 +23,7 @@ class QuestionPage extends StatefulWidget {
 }
 
 class _QuestionPageState extends State<QuestionPage> {
-  late List<QuizModel> quizList;
+  List<QuizModel> quizList = [];
   late int amount;
   bool isBusy = false;
   int questionNumber = 0;
